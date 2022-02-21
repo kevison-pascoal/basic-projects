@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 198, 0);
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.title {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input input {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    outline: 0;
+    font: bold 1.5rem serif;
+    text-align: center;
+}
+
+.input label {
+    font: bold 1.5rem serif;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    font: bold 1.2 serif;
+    background: #000;
+    color: rgb(255, 198, 0);
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.result {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    font: italic 1.5rem serif;
+    box-shadow: #000;
+    background: #000;
+    color: rgb(255, 198, 0);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+}
